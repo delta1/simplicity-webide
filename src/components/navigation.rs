@@ -54,68 +54,77 @@ pub fn Navigation() -> impl IntoView {
                     <div class="navigation-dropdown">
                         <span class="navigation-dropdown-label">"Docs"</span>
                         <div class="navigation-dropdown-content">
-                            <a href="https://blockstream.com/simplicity.pdf" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Whitepaper"</div>
-                                <div class="navigation-dropdown-description">"The original Simplicity whitepaper, detailing the language."</div>
-                            </a>
-                            <a href="https://docs.rs/simplicityhl-as-rust" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Jets Documentation"</div>
-                                <div class="navigation-dropdown-description">"Technical reference detailing each jet's functionality and use."</div>
-                            </a>
-                            <a href="https://docs.simplicity-lang.org/" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"SimplicityHL"</div>
-                                <div class="navigation-dropdown-description">"A high-level, developer-friendly language that compiles down to Simplicity."</div>
-                            </a>
-                            <a href="https://github.com/BlockstreamResearch/SimplicityHL/tree/master/examples" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Contract Examples"</div>
-                                <div class="navigation-dropdown-description">"A curated set of smart contract templates and patterns."</div>
-                            </a>
+                            <div class="navigation-dropdown-wrapper">
+                                <a href="https://blockstream.com/simplicity.pdf" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Whitepaper"</div>
+                                    <div class="navigation-dropdown-description">"The original Simplicity whitepaper, detailing the language."</div>
+                                </a>
+                                <a href="https://docs.rs/simplicityhl-as-rust" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Jets Documentation"</div>
+                                    <div class="navigation-dropdown-description">"Technical reference detailing each jet's functionality and use."</div>
+                                </a>
+                                <a href="https://docs.simplicity-lang.org/" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"SimplicityHL"</div>
+                                    <div class="navigation-dropdown-description">"A high-level, developer-friendly language that compiles down to Simplicity."</div>
+                                </a>
+                                <a href="https://github.com/BlockstreamResearch/SimplicityHL/tree/master/examples" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Contract Examples"</div>
+                                    <div class="navigation-dropdown-description">"A curated set of smart contract templates and patterns."</div>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
 
                     <div class="navigation-dropdown">
                         <span class="navigation-dropdown-label">"Packages"</span>
                         <div class="navigation-dropdown-content">
-                            <a href="https://github.com/BlockstreamResearch/simplicity" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Simplicity"</div>
-                                <div class="navigation-dropdown-description">"The low-level, formally-verifiable smart contract language."</div>
-                            </a>
-                            <a href="https://github.com/BlockstreamResearch/SimplicityHL" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"SimplicityHL Compiler"</div>
-                                <div class="navigation-dropdown-description">"The toolchain that translates SimplicityHL code into raw Simplicity."</div>
-                            </a>
-                            <a href="https://ide.simplicity-lang.org/" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"SimplicityHL IDE"</div>
-                                <div class="navigation-dropdown-description">"A browser-based playground for writing and testing contracts."</div>
-                            </a>
+                            <div class="navigation-dropdown-wrapper">
+                                <a href="https://github.com/BlockstreamResearch/simplicity" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Simplicity"</div>
+                                    <div class="navigation-dropdown-description">"The low-level, formally-verifiable smart contract language."</div>
+                                </a>
+                                <a href="https://github.com/BlockstreamResearch/SimplicityHL" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"SimplicityHL Compiler"</div>
+                                    <div class="navigation-dropdown-description">"The toolchain that translates SimplicityHL code into raw Simplicity."</div>
+                                </a>
+                                <a href="https://ide.simplicity-lang.org/" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"SimplicityHL IDE"</div>
+                                    <div class="navigation-dropdown-description">"A browser-based playground for writing and testing contracts."</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="navigation-dropdown">
                         <span class="navigation-dropdown-label">"Learn"</span>
                         <div class="navigation-dropdown-content">
-                            <a href="https://simplicity-lang.org/articles" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Articles"</div>
-                                // <div class="navigation-dropdown-description">"Read in-depth articles about Simplicity and smart contracts."</div>
-                            </a>
-                            <a href="https://simplicity-lang.org/videos" class="navigation-dropdown-item">
-                                <div class="navigation-dropdown-title">"Videos"</div>
-                                // <div class="navigation-dropdown-description">"Watch tutorials and presentations about Simplicity."</div>
-                            </a>
+                            <div class="navigation-dropdown-wrapper">
+                                <a href="https://simplicity-lang.org/articles" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Articles"</div>
+                                    // <div class="navigation-dropdown-description">"Read in-depth articles about Simplicity and smart contracts."</div>
+                                </a>
+                                <a href="https://simplicity-lang.org/videos" class="navigation-dropdown-item">
+                                    <div class="navigation-dropdown-title">"Videos"</div>
+                                    // <div class="navigation-dropdown-description">"Watch tutorials and presentations about Simplicity."</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="navigation-dropdown navigation-dropdown-community">
                         <span class="navigation-dropdown-label">"Community"</span>
                         <div class="navigation-dropdown-content navigation-dropdown-content-community">
-                            <a href="https://x.com/blksresearch" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item navigation-dropdown-item-community">
-                                <img src="images/x.svg" alt="Twitter" class="navigation-dropdown-icon" />
-                                <span class="navigation-dropdown-title">"Twitter"</span>
-                            </a>
-                            <a href="https://t.me/simplicity_community" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item navigation-dropdown-item-community">
-                                <img src="images/telegram.svg" alt="Telegram" class="navigation-dropdown-icon" />
-                                <span class="navigation-dropdown-title">"Telegram"</span>
-                            </a>
+                            <div class="navigation-dropdown-wrapper">
+                                <a href="https://x.com/blksresearch" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item navigation-dropdown-item-community">
+                                    <img src="images/x.svg" alt="Twitter" class="navigation-dropdown-icon" />
+                                    <span class="navigation-dropdown-title">"Twitter"</span>
+                                </a>
+                                <a href="https://t.me/simplicity_community" target="_blank" rel="noopener noreferrer" class="navigation-dropdown-item navigation-dropdown-item-community">
+                                    <img src="images/telegram.svg" alt="Telegram" class="navigation-dropdown-icon" />
+                                    <span class="navigation-dropdown-title">"Telegram"</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
