@@ -39,7 +39,7 @@ $font-carbon: 'Arial', sans-serif; // Replace with your Carbon font
 
     &-title {
         color: $text-white;
-        font-family: 'rigid-square';
+        font-family: 't26-carbon', 'sans-serif';
         font-size: 28px;
         font-weight: bold;
         margin-top: 16px;
@@ -73,7 +73,7 @@ $font-carbon: 'Arial', sans-serif; // Replace with your Carbon font
 
     &-link {
         color: $text-white;
-        font-family: 'rigid-square';
+        font-family: 't26-carbon', 'sans-serif';
         font-size: 16px;
         font-weight: bold;
         text-decoration: none;
@@ -174,7 +174,7 @@ $font-carbon: 'Arial', sans-serif; // Replace with your Carbon font
         border: none;
         border-radius: 2px;
         background: #FF9517;
-        font-family: 'rigid-square';
+        font-family: 't26-carbon', 'sans-serif';
         color: #000;
         font-size: 22px;
         font-style: normal;
