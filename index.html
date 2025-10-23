@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E1W2Z7720"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7E1W2Z7720');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon-7cd5c27a9eb50126.png" integrity="sha384-wToBUL03KwXG4Uk5IRprZrvuwfQEv+FWXM4WbH5VI/+vMKMS+p49t0rmo4ABMx+l"/>
+    <title>Simplicity IDE</title>
+
+    <link rel="stylesheet" href="/style-ded83ff43f2a2afa.css" integrity="sha384-mPTXfIKeVro5JzFrbQqZOIMDGjkCXDEzpM25W+uhRPT9OSKhdTDMc7qLfWFGc5Fk"/>
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <noscript>This page requires JavaScript</noscript>
+  <link rel="modulepreload" href="/simplicity-webide-b43299d621c859b8.js" crossorigin="anonymous" integrity="sha384-JSQs+PAftc3Sp5Ak+BhJ7L7su9SxlnTEKuHsMsZ5dhjUMM3kDeJMkkgLyZZWeFkn"><link rel="preload" href="/simplicity-webide-b43299d621c859b8_bg.wasm" crossorigin="anonymous" integrity="sha384-KwfUHFVjYMzcSCOoIh58gUe8fFS6/YsbjigiIYU0zJhSg6HG2TF2/qIjzQ61c9xi" as="fetch" type="application/wasm"></head>
+  <body>
+<script type="module">
+import init, * as bindings from '/simplicity-webide-b43299d621c859b8.js';
+const wasm = await init({ module_or_path: '/simplicity-webide-b43299d621c859b8_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+
+</html>
