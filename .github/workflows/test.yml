@@ -5,7 +5,10 @@ on:
 jobs:
   check-flake:
     name: Check flake
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
 
     steps:
     - name: Checkout
@@ -21,7 +24,10 @@ jobs:
 
   test-stable:
     name: Test - stable toolchain
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
 
     steps:
     - name: Checkout
